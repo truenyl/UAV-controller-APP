@@ -111,7 +111,7 @@ public class MainActivity extends Activity {
     	{
     		AlertDialog about = new AlertDialog.Builder(this).create();
     		about.setCancelable(false);
-    		about.setMessage("欢迎使用匿名科创安卓控制程序v0.1\n匿名官网:www.anotc.com");
+    		about.setMessage("～～～");
     		about.setButton("OK", new DialogInterface.OnClickListener() 
     		{
 				public void onClick(DialogInterface dialog, int which) {
@@ -141,7 +141,7 @@ public class MainActivity extends Activity {
     @Override
     public void onBackPressed() {
     	new AlertDialog.Builder(this)
-    	.setTitle("匿名科创")
+    	.setTitle("～～～")
     	.setMessage("关闭程序?")
     	.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
 			public void onClick(DialogInterface dialog, int which) {
